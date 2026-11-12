@@ -1,0 +1,23 @@
+# Pipeline
+pipeline/data/
+pipeline/output/
+pipeline/.venv/
+pipeline/.env
+__pycache__/
+*.pyc
+.pytest_cache/
+pipeline/ocean_pipeline.egg-info/
+
+# Web
+web/node_modules/
+web/.svelte-kit/
+web/build/
+web/.env
+web/.env.*
+!web/.env.example
+
+# OS
+.DS_Store
+
+# Local agent tooling state
+.claude/
